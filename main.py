@@ -113,3 +113,5 @@ while True:
             elif "exit" in text:
                 speak("Goodbye")
                 break
+            else:
+                speak("Command not recognized")
